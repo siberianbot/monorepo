@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glue.Client", "Glue.Client\Glue.Client.csproj", "{4759DEE8-8DDB-454C-B23D-ED4C55FA9DD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glue.Common", "Glue.Common\Glue.Common.csproj", "{4F78D5C4-DDD8-41E3-80FB-286BF63FF0EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glue.Server", "Glue.Server\Glue.Server.csproj", "{42C1A210-6145-4390-AD93-2B0DFAE0F00C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{95923B3F-9969-427F-A0CF-4E2F3A49F215}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{D4A39C29-CFEE-4350-91E8-729DB720D3DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glue.Example.Server", "Glue.Example.Server\Glue.Example.Server.csproj", "{290E039E-121B-4BFA-866A-D216F4E3E68F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glue.Example.Client", "Glue.Example.Client\Glue.Example.Client.csproj", "{6B219C05-2A2D-4D9B-8A28-69DA4C43A76B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glue.Example.Common", "Examples\Glue.Example.Common\Glue.Example.Common.csproj", "{A6F85D9B-3FA5-4739-AFF6-84D5F2EAFFCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4759DEE8-8DDB-454C-B23D-ED4C55FA9DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4759DEE8-8DDB-454C-B23D-ED4C55FA9DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4759DEE8-8DDB-454C-B23D-ED4C55FA9DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4759DEE8-8DDB-454C-B23D-ED4C55FA9DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F78D5C4-DDD8-41E3-80FB-286BF63FF0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F78D5C4-DDD8-41E3-80FB-286BF63FF0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F78D5C4-DDD8-41E3-80FB-286BF63FF0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F78D5C4-DDD8-41E3-80FB-286BF63FF0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42C1A210-6145-4390-AD93-2B0DFAE0F00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42C1A210-6145-4390-AD93-2B0DFAE0F00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42C1A210-6145-4390-AD93-2B0DFAE0F00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42C1A210-6145-4390-AD93-2B0DFAE0F00C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290E039E-121B-4BFA-866A-D216F4E3E68F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290E039E-121B-4BFA-866A-D216F4E3E68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290E039E-121B-4BFA-866A-D216F4E3E68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290E039E-121B-4BFA-866A-D216F4E3E68F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B219C05-2A2D-4D9B-8A28-69DA4C43A76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B219C05-2A2D-4D9B-8A28-69DA4C43A76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B219C05-2A2D-4D9B-8A28-69DA4C43A76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B219C05-2A2D-4D9B-8A28-69DA4C43A76B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6F85D9B-3FA5-4739-AFF6-84D5F2EAFFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F85D9B-3FA5-4739-AFF6-84D5F2EAFFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F85D9B-3FA5-4739-AFF6-84D5F2EAFFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F85D9B-3FA5-4739-AFF6-84D5F2EAFFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{290E039E-121B-4BFA-866A-D216F4E3E68F} = {D4A39C29-CFEE-4350-91E8-729DB720D3DD}
+		{6B219C05-2A2D-4D9B-8A28-69DA4C43A76B} = {D4A39C29-CFEE-4350-91E8-729DB720D3DD}
+		{A6F85D9B-3FA5-4739-AFF6-84D5F2EAFFCF} = {D4A39C29-CFEE-4350-91E8-729DB720D3DD}
+	EndGlobalSection
+EndGlobal

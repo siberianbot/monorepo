@@ -1,0 +1,3 @@
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/Entity.cpp")
+
+set(SRC ${SRC} PARENT_SCOPE)

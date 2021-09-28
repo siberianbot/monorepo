@@ -1,0 +1,7 @@
+[Bb]in/
+[Oo]bj/
+packages/
+_ReSharper.Caches/
+.idea/
+
+riderModule.iml

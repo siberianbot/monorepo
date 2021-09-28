@@ -1,0 +1,11 @@
+﻿<#@ template language="C#" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+
+namespace HiveMind.Glue.Client
+{
+    public sealed partial class References
+    {
+        
+    }
+}

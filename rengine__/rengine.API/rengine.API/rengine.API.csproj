@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.NETCore.DotNetAppHost" Version="5.0.0-rc.1.20451.14" />
+      <PackageReference Include="runtime.win-x64.Microsoft.NETCore.DotNetAppHost" Version="5.0.0-rc.1.20451.14" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Utils\**" />
+      <Compile Update="Resources\ExceptionMessages.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Messages.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Utils\**" />
+      <EmbeddedResource Update="Resources\ExceptionMessages.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ExceptionMessages.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Utils\**" />
+    </ItemGroup>
+
+</Project>

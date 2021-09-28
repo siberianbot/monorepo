@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rengine.API", "rengine.API\rengine.API.csproj", "{485C8326-7345-4C32-8BC6-BF301172C68F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{5D419DFB-58D9-49EB-B362-777D85BDB501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rengine.API.SampleProject", "Samples\rengine.API.SampleProject\rengine.API.SampleProject.csproj", "{A610C248-537C-4321-B942-F65B132D6E1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83D660B8-0EFA-4BBD-B802-15303D0B1F9E}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{485C8326-7345-4C32-8BC6-BF301172C68F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485C8326-7345-4C32-8BC6-BF301172C68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485C8326-7345-4C32-8BC6-BF301172C68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485C8326-7345-4C32-8BC6-BF301172C68F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A610C248-537C-4321-B942-F65B132D6E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A610C248-537C-4321-B942-F65B132D6E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A610C248-537C-4321-B942-F65B132D6E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A610C248-537C-4321-B942-F65B132D6E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A610C248-537C-4321-B942-F65B132D6E1D} = {5D419DFB-58D9-49EB-B362-777D85BDB501}
+	EndGlobalSection
+EndGlobal

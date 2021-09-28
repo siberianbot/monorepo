@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ToDoList.CommandServices\ToDoList.CommandServices.csproj" />
+      <ProjectReference Include="..\ToDoList.Common\ToDoList.Common.csproj" />
+      <ProjectReference Include="..\ToDoList.DataAccess\ToDoList.DataAccess.csproj" />
+      <ProjectReference Include="..\ToDoList.QueryServices\ToDoList.QueryServices.csproj" />
+    </ItemGroup>
+
+</Project>

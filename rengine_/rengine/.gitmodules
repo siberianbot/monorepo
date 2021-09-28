@@ -1,0 +1,24 @@
+[submodule "glfw3"]
+	path = extern/glfw3
+	url = https://github.com/glfw/glfw.git
+[submodule "glm"]
+	path = extern/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "libpng"]
+	path = extern/libpng
+	url = https://github.com/glennrp/libpng.git
+[submodule "zlib"]
+	path = extern/zlib
+	url = https://github.com/madler/zlib.git
+[submodule "stb"]
+	path = extern/stb
+	url = https://github.com/nothings/stb.git
+[submodule "assimp"]
+	path = extern/assimp
+	url = https://github.com/assimp/assimp.git
+[submodule "extern/freetype2"]
+	path = extern/freetype2
+	url = git://git.sv.nongnu.org/freetype/freetype2.git
+[submodule "json"]
+	path = extern/json
+	url = https://github.com/nlohmann/json.git

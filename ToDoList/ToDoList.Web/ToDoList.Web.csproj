@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\ToDoList.DataAccess\ToDoList.DataAccess.csproj" />
+        <ProjectReference Include="..\ToDoList.Services.Command\ToDoList.Services.Command.csproj" />
+        <ProjectReference Include="..\ToDoList.Services.Query\ToDoList.Services.Query.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <TypeScriptCompile Include="Assets\ts\AppRoot.tsx" />
+        <TypeScriptCompile Include="Assets\ts\components\common\Spinner.tsx" />
+        <TypeScriptCompile Include="Assets\ts\components\layout\AppLayout.tsx" />
+        <TypeScriptCompile Include="Assets\ts\components\layout\Navbar.tsx" />
+        <TypeScriptCompile Include="Assets\ts\components\workitems\WorkItemContainer.tsx" />
+        <TypeScriptCompile Include="Assets\ts\components\workitems\WorkItemContext.ts" />
+        <TypeScriptCompile Include="Assets\ts\components\workitems\WorkItemDetail.tsx" />
+        <TypeScriptCompile Include="Assets\ts\components\workitems\WorkItemList.tsx" />
+        <TypeScriptCompile Include="Assets\ts\components\workitems\WorkItemListItem.tsx" />
+        <TypeScriptCompile Include="Assets\ts\index.ts" />
+        <TypeScriptCompile Include="Assets\ts\services\workitem\get-work-items.ts" />
+        <TypeScriptCompile Include="Assets\ts\utils\server.ts" />
+        <TypeScriptCompile Include="Assets\ts\utils\url.ts" />
+    </ItemGroup>
+
+</Project>

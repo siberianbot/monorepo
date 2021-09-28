@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\TeamWorks.Common\TeamWorks.Common.csproj" />
+        <ProjectReference Include="..\TeamWorks.DataAccess.Implementation\TeamWorks.DataAccess.Implementation.csproj" />
+        <ProjectReference Include="..\TeamWorks.DependencyInjection\TeamWorks.DependencyInjection.csproj" />
+        <ProjectReference Include="..\TeamWorks.Services.Query.Implementation\TeamWorks.Services.Query.Implementation.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Models\Authentication" />
+    </ItemGroup>
+
+</Project>

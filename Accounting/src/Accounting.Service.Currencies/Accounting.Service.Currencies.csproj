@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Accounting.DataAccess.Design\Accounting.DataAccess.Design.csproj" />
+        <ProjectReference Include="..\Accounting.DataAccess.Extensions\Accounting.DataAccess.Extensions.csproj" />
+        <ProjectReference Include="..\Accounting.DataAccess.Implementation\Accounting.DataAccess.Implementation.csproj" />
+        <ProjectReference Include="..\Accounting.Service\Accounting.Service.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.7">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+</Project>

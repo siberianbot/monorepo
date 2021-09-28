@@ -1,0 +1,6 @@
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/Container.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/Container.hpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/EngineHost.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/EngineHost.hpp")
+
+set(SRC ${SRC} PARENT_SCOPE)

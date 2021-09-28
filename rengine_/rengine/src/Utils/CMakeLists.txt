@@ -1,0 +1,4 @@
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/Assert.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/String.cpp")
+
+set(SRC ${SRC} PARENT_SCOPE)

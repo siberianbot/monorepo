@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "name": "go",
+      "cmd": "go",
+      "args": [ "version" ],
+      "next": [ "dotnet" ]
+    },
+    {
+      "name": "dotnet",
+      "cmd": "dotnet",
+      "args": [ "--info" ]
+    }
+  ],
+  "initial": "go"
+}

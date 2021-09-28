@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Update="Resources\Enums.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Enums.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <EmbeddedResource Update="Resources\Enums.*.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Enums.Designer.cs</LastGenOutput>
+            <DependentUpon>Enums.resx</DependentUpon>
+        </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Update="Resources\Enums.Designer.cs">
+            <DesignTime>True</DesignTime>
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Enums.resx</DependentUpon>
+        </Compile>
+    </ItemGroup>
+
+</Project>

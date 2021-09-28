@@ -1,0 +1,34 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core.dll" #>
+<#@ assembly name="$(SolutionDir)\Glue.Example.Server\bin\Debug\netcoreapp3.1\Glue.Example.Server.dll" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Reflection" #>
+<#@ import namespace="System.Collections.Generic" #>
+
+<#
+
+    IEnumerable<MethodInfo> GetServiceMethods(string serviceName)
+    {
+        return Assembly
+            .GetExecutingAssembly()
+            .GetExportedTypes()
+            .FirstOrDefault(t => t.Name == serviceName)?
+            .GetMethods();
+    }
+
+#>
+
+namespace Glue.Example.Client
+{
+    public sealed partial class References
+    {
+<#
+
+    foreach (MethodInfo methodInfo in GetServiceMethods("Glue.Example.Server.SampleService"))
+    {
+        return methodInfo.ReturnType.FullName;
+    }
+
+#>
+    }
+}

@@ -1,0 +1,5 @@
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/engine.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/engineException.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/log.cpp")
+
+set(SRC ${SRC} PARENT_SCOPE)

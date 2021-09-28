@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC92135A-B278-43A7-9339-5A5E5E6B945A}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "siberianbot.Tools.Encrypting.Encryptor", "siberianbot.Tools.Encrypting.Encryptor\siberianbot.Tools.Encrypting.Encryptor.csproj", "{0CE8DEEF-76F7-46E6-ACB2-D767AE2FA45C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "siberianbot.Tools.Encrypting", "siberianbot.Tools.Encrypting\siberianbot.Tools.Encrypting.csproj", "{281A617D-64F3-4CA5-8443-A54919E89B65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6A378014-0CE2-45C3-8213-ABC3621222F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CE8DEEF-76F7-46E6-ACB2-D767AE2FA45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE8DEEF-76F7-46E6-ACB2-D767AE2FA45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE8DEEF-76F7-46E6-ACB2-D767AE2FA45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE8DEEF-76F7-46E6-ACB2-D767AE2FA45C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{281A617D-64F3-4CA5-8443-A54919E89B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281A617D-64F3-4CA5-8443-A54919E89B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281A617D-64F3-4CA5-8443-A54919E89B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281A617D-64F3-4CA5-8443-A54919E89B65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

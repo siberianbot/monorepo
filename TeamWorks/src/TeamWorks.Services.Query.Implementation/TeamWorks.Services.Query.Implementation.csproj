@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\TeamWorks.Common\TeamWorks.Common.csproj"/>
+        <ProjectReference Include="..\TeamWorks.DataAccess\TeamWorks.DataAccess.csproj"/>
+        <ProjectReference Include="..\TeamWorks.Services.Query\TeamWorks.Services.Query.csproj"/>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\TeamWorks.DataAccess\TeamWorks.DataAccess.csproj"/>
+        <ProjectReference Include="..\TeamWorks.DependencyInjection\TeamWorks.DependencyInjection.csproj"/>
+        <ProjectReference Include="..\TeamWorks.DomainModel\TeamWorks.DomainModel.csproj"/>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C506B5E-A201-4441-988F-9D051D859090}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoQuest.Web", "CryptoQuest.Web\CryptoQuest.Web.csproj", "{B9AFB0E2-87BF-4176-8BAA-7D9AD628DF27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoQuest.Models", "CryptoQuest.Models\CryptoQuest.Models.csproj", "{F5C78A85-C3C4-452F-BEED-D714DD625F1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoQuest.DataAccess", "CryptoQuest.DataAccess\CryptoQuest.DataAccess.csproj", "{9FFA6BC1-28C9-4C37-8D9B-E7CE137651D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9AFB0E2-87BF-4176-8BAA-7D9AD628DF27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AFB0E2-87BF-4176-8BAA-7D9AD628DF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AFB0E2-87BF-4176-8BAA-7D9AD628DF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AFB0E2-87BF-4176-8BAA-7D9AD628DF27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C78A85-C3C4-452F-BEED-D714DD625F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C78A85-C3C4-452F-BEED-D714DD625F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C78A85-C3C4-452F-BEED-D714DD625F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C78A85-C3C4-452F-BEED-D714DD625F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FFA6BC1-28C9-4C37-8D9B-E7CE137651D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FFA6BC1-28C9-4C37-8D9B-E7CE137651D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FFA6BC1-28C9-4C37-8D9B-E7CE137651D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FFA6BC1-28C9-4C37-8D9B-E7CE137651D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/IRenderer.hpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/ISurface.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/ISurface.hpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/ISurfaceFactory.hpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/ISwapchain.hpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/IViewport.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/IViewport.hpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/IViewportManager.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/IViewportManager.hpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/RendererFactory.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/RendererFactory.hpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/ViewportManagerFactory.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/ViewportManagerFactory.hpp")
+
+add_subdirectory("Vulkan")
+add_subdirectory("Win32")
+
+set(SRC ${SRC} PARENT_SCOPE)

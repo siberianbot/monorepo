@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "siberianbot.Tokenization", "siberianbot.Tokenization\siberianbot.Tokenization.csproj", "{017C413B-06E8-4ECB-9185-DFA4AA3F73DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "siberianbot.Tokenization.Tests", "siberianbot.Tokenization.Tests\siberianbot.Tokenization.Tests.csproj", "{C0D1418E-9B10-4AE1-A602-2BD56FA6212B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{017C413B-06E8-4ECB-9185-DFA4AA3F73DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017C413B-06E8-4ECB-9185-DFA4AA3F73DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017C413B-06E8-4ECB-9185-DFA4AA3F73DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017C413B-06E8-4ECB-9185-DFA4AA3F73DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D1418E-9B10-4AE1-A602-2BD56FA6212B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D1418E-9B10-4AE1-A602-2BD56FA6212B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D1418E-9B10-4AE1-A602-2BD56FA6212B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D1418E-9B10-4AE1-A602-2BD56FA6212B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

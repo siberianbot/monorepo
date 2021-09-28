@@ -1,0 +1,5 @@
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/Engine.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/Engine.hpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/Engine.RunRoutine.cpp")
+
+set(SRC ${SRC} PARENT_SCOPE)

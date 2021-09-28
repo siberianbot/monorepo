@@ -1,0 +1,8 @@
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/Assertion.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/Assertion.hpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/Log.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/Log.hpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/StringUtils.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/StringUtils.hpp")
+
+set(SRC ${SRC} PARENT_SCOPE)

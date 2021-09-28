@@ -1,0 +1,17 @@
+﻿{
+  "compilerOptions": {
+    "outDir": "./wwwroot/",
+    "lib": ["es6", "dom"],
+    "module": "es6",
+    "target": "es5",
+    "sourceMap": true,
+    "jsx": "react",
+    "moduleResolution": "node"
+  },
+  "include": [
+    "./Assets/ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

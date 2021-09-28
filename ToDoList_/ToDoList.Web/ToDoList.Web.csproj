@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\ToDoList.CommandServices.Implementation\ToDoList.CommandServices.Implementation.csproj" />
+        <ProjectReference Include="..\ToDoList.DataAccess.Implementation\ToDoList.DataAccess.Implementation.csproj" />
+        <ProjectReference Include="..\ToDoList.QueryServices.Implementation\ToDoList.QueryServices.Implementation.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="Assets\**\*.ts" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Update="Resources\Fields.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Fields.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <EmbeddedResource Update="Resources\Fields.*.resx">
+            <DependentUpon>Fields.resx</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Update="Resources\Messages.resx">
+          <Generator>ResXFileCodeGenerator</Generator>
+          <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <EmbeddedResource Update="Resources\Messages.*.resx">
+          <DependentUpon>Messages.resx</DependentUpon>
+        </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Update="Resources\Fields.Designer.cs">
+            <DesignTime>True</DesignTime>
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Fields.resx</DependentUpon>
+        </Compile>
+        <Compile Update="Resources\Messages.Designer.cs">
+          <DesignTime>True</DesignTime>
+          <AutoGen>True</AutoGen>
+          <DependentUpon>Messages.resx</DependentUpon>
+        </Compile>
+    </ItemGroup>
+
+</Project>

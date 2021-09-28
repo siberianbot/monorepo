@@ -1,0 +1,5 @@
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/buffer.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/renderer.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/shader.cpp")
+
+set(SRC ${SRC} PARENT_SCOPE)

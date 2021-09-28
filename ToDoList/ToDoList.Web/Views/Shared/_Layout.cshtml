@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+@{
+    IgnoreBody();
+
+    string baseUrl = $"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.PathBase}";
+}
+
+<html lang="en">
+    <head>
+        <title>@ViewData["Title"]</title>
+
+        <meta charset="UTF-8">
+        <meta name="baseUrl" content="@baseUrl">
+
+        <script type="text/javascript" src="assets/bundle.js" defer></script>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+              rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+              crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="app-root"></div>
+    </body>
+</html>

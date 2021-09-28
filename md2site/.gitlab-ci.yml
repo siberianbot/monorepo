@@ -1,0 +1,13 @@
+image: python:latest
+
+before_script:
+  - python -m pip install markdown
+  - python -m pip install chevron
+
+stages:
+  - test
+
+tests:
+  stage: test
+  script:
+    - python -m unittest discover -v -s "./tests" -p "test_*.py"

@@ -1,0 +1,4 @@
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/apiHost.cpp")
+list(APPEND SRC "${CMAKE_CURRENT_LIST_DIR}/nethost.cpp")
+
+set(SRC ${SRC} PARENT_SCOPE)
